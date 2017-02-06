@@ -1,0 +1,6 @@
+﻿namespace habitation
+{
+    class robinet
+    {
+    }
+}

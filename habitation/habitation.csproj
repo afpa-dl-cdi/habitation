@@ -43,8 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="energie.cs" />
+    <Compile Include="Habitation.cs" />
+    <Compile Include="ICuisine.cs" />
+    <Compile Include="ISalleDeBain.cs" />
+    <Compile Include="ISanitaire.cs" />
+    <Compile Include="materiau.cs" />
+    <Compile Include="prise.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="robinet.cs" />
+    <Compile Include="Villa.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
