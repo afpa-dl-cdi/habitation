@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\habitation.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -46,6 +47,7 @@
     <Compile Include="energie.cs" />
     <Compile Include="Habitation.cs" />
     <Compile Include="ICuisine.cs" />
+    <Compile Include="IJardin.cs" />
     <Compile Include="ISalleDeBain.cs" />
     <Compile Include="ISanitaire.cs" />
     <Compile Include="materiau.cs" />

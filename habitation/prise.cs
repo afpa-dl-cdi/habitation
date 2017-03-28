@@ -1,6 +1,6 @@
 ﻿namespace habitation
 {
-    class prise
+    public class prise
     {
         int puissance;
         bool priseTerre;

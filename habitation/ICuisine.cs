@@ -3,7 +3,7 @@
     /// <summary>
     /// Définit les éléments et le fonctionnement d'une cuisine
     /// </summary>
-    interface ICuisine
+     interface ICuisine
     {
         // pas d'attributs possibles
         // pas de constructeurs possibles

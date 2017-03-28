@@ -1,6 +1,6 @@
 ﻿namespace habitation
 {
-    class robinet
+    public class robinet
     {
     }
 }

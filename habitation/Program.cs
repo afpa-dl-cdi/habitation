@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace habitation
 {
-    class Program
+    /// <summary>
+    /// Classe de lancement du programme
+    /// </summary>
+    public class Program
     {
         static void Main(string[] args)
         {

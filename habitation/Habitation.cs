@@ -7,10 +7,15 @@ namespace habitation
     /// </summary>
     abstract class Habitation : ISalleDeBain, ICuisine, ISanitaire
     {
+        #region Accesseurs
+
         /// <summary>
         /// Nombre de pièce(s) dans l'habitation
         /// </summary>
         public int NombreDePieces { get; set; }
+        #endregion
+
+        #region Constructeur
 
         /// <summary>
         /// Constructeur permettant de définir le nombre de pièces
@@ -20,6 +25,10 @@ namespace habitation
         {
             this.NombreDePieces = nbPiece;
         }
+
+        #endregion
+
+        #region Salle de bain
 
         /// <summary>
         /// faire arriver l'eau
@@ -57,6 +66,9 @@ namespace habitation
             //code pour définir l'arrivée de la prise électrique
         }
 
+        #endregion
+
+        #region Cuisine
 
         /// <summary>
         /// faire arriver la prise pour le four
@@ -109,5 +121,7 @@ namespace habitation
         {
            // code pour la configuration de la cuisiniere
         }
+
+        #endregion
     }
 }

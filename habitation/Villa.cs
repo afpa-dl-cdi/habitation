@@ -1,9 +1,11 @@
-﻿namespace habitation
+﻿using System;
+
+namespace habitation
 {
     /// <summary>
     /// Habitation de type villa avec ou sans extérieur
     /// </summary>
-    class Villa : Habitation
+     class Villa : Habitation, IJardin
     {
         /// <summary>
         /// Définit si la maison possède un extérieur ou non
@@ -38,5 +40,18 @@
             Terrain = terrain;
             SuperficieTerrain = superficieTerrain;
         }
+
+        #region Jardin
+
+        /// <summary>
+        /// Hérité de l'interface jardin (by Hervé)
+        /// </summary>
+        /// <param name="nomDuNain"></param>
+        public void placerLeNain(string nomDuNain)
+        {
+            Console.WriteLine("Placer Passe Partout");
+        }
+
+        #endregion
     }
 }
